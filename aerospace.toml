@@ -148,6 +148,10 @@ run = 'move-node-to-workspace WEB'
 if.app-id = 'com.brave.Browser'
 run = 'move-node-to-workspace WEB'
 
+[[on-window-detected]] # Firefox -> WEB
+if.app-id = 'org.mozilla.firefox'
+run = 'move-node-to-workspace WEB'
+
 [[on-window-detected]] # WezTerm -> TERM
 if.app-id = 'com.github.wez.wezterm'
 run = 'move-node-to-workspace TERM'
