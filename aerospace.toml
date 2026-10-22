@@ -21,9 +21,9 @@ preset = 'dvorak' # Possible values: (qwerty|dvorak|colemak)
 inner.horizontal = 5
 inner.vertical = 5
 outer.top = 5
-outer.bottom = 8
-outer.left = 8
-outer.right = 8
+outer.bottom = 5
+outer.left = 5
+outer.right = 5
 
 # -----------------------------------------------------------------------------------------
 # All possible keys:
